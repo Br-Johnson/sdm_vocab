@@ -1,0 +1,44 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/Application_Programming_Interface_(API)> a owl:Class ;
+    rdfs:label "Application Programming Interface (API)" ;
+    skos:definition "A set of protocols, tools, and definitions that allows different software applications to communicate and interact with each other, enabling seamless integration and data exchange." .
+
+<http://example.org/Controlled_vocabularies> a owl:Class ;
+    rdfs:label "Controlled vocabularies" ;
+    skos:definition "Standardized sets of terms and definitions used to describe concepts and entities within a specific domain, facilitating consistent and precise communication among researchers and data users." .
+
+<http://example.org/Data_citation> a owl:Class ;
+    rdfs:label "Data citation" ;
+    skos:definition "The practice of formally acknowledging and attributing datasets used in research by providing citations similar to those used for scholarly publications, ensuring proper credit and recognition for data creators and contributors." .
+
+<http://example.org/Data_interoperability> a owl:Class ;
+    rdfs:label "Data interoperability" ;
+    skos:definition "The ability of diverse data systems, applications, and devices to work together effectively, enabling seamless exchange and use of data across different platforms and organizations." .
+
+<http://example.org/Data_management_planning_(DMP)> a owl:Class ;
+    rdfs:label "Data management planning (DMP)" ;
+    skos:definition "A structured and comprehensive document outlining how data will be collected, managed, stored, and shared throughout the research lifecycle, ensuring compliance with FAIR principles and ethical considerations." .
+
+<http://example.org/FAIR_principles> a owl:Class ;
+    rdfs:label "FAIR principles" ;
+    skos:definition "FAIR stands for Findable, Accessible, Interoperable, and Reusable. These principles provide guidelines for making data more discoverable, accessible, and usable by both humans and machines." .
+
+<http://example.org/Metadata_standards> a owl:Class ;
+    rdfs:label "Metadata standards" ;
+    skos:definition "Established guidelines for describing and documenting metadata, which provide essential context and information about datasets, making them easier to discover, understand, and interpret." .
+
+<http://example.org/Ontology_development> a owl:Class ;
+    rdfs:label "Ontology development" ;
+    skos:definition "The process of creating and refining formal representations of knowledge within a specific domain, including concepts, relationships, and constraints, to support better data integration, interpretation, and analysis." .
+
+<http://example.org/Persistent_identifiers_(PIDs)> a owl:Class ;
+    rdfs:label "Persistent identifiers (PIDs)" ;
+    skos:definition "Unique and unchanging labels assigned to digital objects, such as datasets, to ensure their long-term accessibility and citability, even if their locations change over time." .
+
+<http://example.org/Salmon_data_stewardship> a owl:Class ;
+    rdfs:label "Salmon data stewardship" ;
+    skos:definition "The responsible management and oversight of salmon-related data, including tasks such as data collection, organization, preservation, and dissemination to support research and management efforts." .
+

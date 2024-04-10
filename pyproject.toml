@@ -16,6 +16,8 @@ isort = "^5.13.2"
 jupyter-client = "^8.6.1"
 rpy2 = "^3.5.16"
 ipykernel = "^6.29.4"
+lxml = "^5.2.1"
+rdflib = "^7.0.0"
 
 
 [build-system]
