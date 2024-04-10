@@ -11,6 +11,9 @@ url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS7cXXTu71hmQVbt5zvtLJAEq
 # Read the data from the URL into a pandas DataFrame
 df = pd.read_csv(url)
 
+# Save input df to a csv file
+df.to_csv("./data/sdm_vocab.csv", index=False)
+
 # Define the namespaces to be used in the RDF graph
 namespaces = {
     "rdf": Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
@@ -46,5 +49,5 @@ for _, row in df.iterrows():
 turtle_data = g.serialize(format="turtle")
 
 # Write the serialized data to a .ttl file
-with open("../outputs/sdm_vocab.ttl", "w") as f:
+with open("./outputs/sdm_vocab.ttl", "w") as f:
     f.write(turtle_data)

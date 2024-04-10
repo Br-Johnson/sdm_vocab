@@ -1,0 +1,11 @@
+Name,Definition
+Application Programming Interface (API),"A set of protocols, tools, and definitions that allows different software applications to communicate and interact with each other, enabling seamless integration and data exchange."
+Controlled vocabularies,"Standardized sets of terms and definitions used to describe concepts and entities within a specific domain, facilitating consistent and precise communication among researchers and data users."
+Data citation,"The practice of formally acknowledging and attributing datasets used in research by providing citations similar to those used for scholarly publications, ensuring proper credit and recognition for data creators and contributors."
+Data interoperability,"The ability of diverse data systems, applications, and devices to work together effectively, enabling seamless exchange and use of data across different platforms and organizations."
+Data management planning (DMP),"A structured and comprehensive document outlining how data will be collected, managed, stored, and shared throughout the research lifecycle, ensuring compliance with FAIR principles and ethical considerations."
+FAIR principles,"FAIR stands for Findable, Accessible, Interoperable, and Reusable. These principles provide guidelines for making data more discoverable, accessible, and usable by both humans and machines."
+Ontology development,"The process of creating and refining formal representations of knowledge within a specific domain, including concepts, relationships, and constraints, to support better data integration, interpretation, and analysis."
+Metadata standards,"Established guidelines for describing and documenting metadata, which provide essential context and information about datasets, making them easier to discover, understand, and interpret."
+Persistent identifiers (PIDs),"Unique and unchanging labels assigned to digital objects, such as datasets, to ensure their long-term accessibility and citability, even if their locations change over time."
+Salmon data stewardship,"The responsible management and oversight of salmon-related data, including tasks such as data collection, organization, preservation, and dissemination to support research and management efforts."
