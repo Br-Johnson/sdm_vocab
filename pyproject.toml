@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "sdm-vocab"
+version = "0.1.0"
+description = ""
+authors = ["Brett Johnson <brettthomasjohnson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+requests = "^2.31.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.4"
+black = "^24.3.0"
+isort = "^5.13.2"
+jupyter-client = "^8.6.1"
+rpy2 = "^3.5.16"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+
+(
+/(
+    \.eggs         # exclude a few common directories in the
+  | \.git          # root of the project
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+| foo.py           # also separately exclude a file named foo.py in
+                   # the root of the project
+)
+'''
+
+[tool.isort]
+profile = "black"
